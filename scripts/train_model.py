@@ -1,4 +1,3 @@
-# scripts/train_model.py
 import mlflow
 import mlflow.sklearn
 from sklearn.model_selection import train_test_split
@@ -14,6 +13,9 @@ def train_model():
 
     # Split dataset into training and test sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Set MLflow tracking URI to a directory within the Docker container
+    mlflow.set_tracking_uri("file:///app/mlruns")
 
     # Start an MLflow run
     with mlflow.start_run():
