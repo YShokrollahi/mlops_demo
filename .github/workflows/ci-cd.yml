@@ -37,14 +37,14 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ghcr.io/${{ github.repository }}/mlops-demo:latest .
+        docker build -t ghcr.io/yshokrollahi/mlops-demo:latest .
 
     - name: Log in to GitHub Container Registry
       run: echo "${{ secrets.CR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
     - name: Push Docker image to GitHub Container Registry
-      run: docker push ghcr.io/${{ github.repository }}/mlops-demo:latest
+      run: docker push ghcr.io/yshokrollahi/mlops-demo:latest
 
     - name: Deploy Docker container
       run: |
-        docker run -d -p 5000:5000 ghcr.io/${{ github.repository }}/mlops-demo:latest
+        docker run -d -p 5000:5000 ghcr.io/yshokrollahi/mlops-demo:latest
