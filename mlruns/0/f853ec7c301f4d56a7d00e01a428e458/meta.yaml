@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yshokrollahi/Documents/GitHub/mlops_demo/mlruns/0/f853ec7c301f4d56a7d00e01a428e458/artifacts
+end_time: 1719605421899
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f853ec7c301f4d56a7d00e01a428e458
+run_name: indecisive-stag-731
+run_uuid: f853ec7c301f4d56a7d00e01a428e458
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719605410787
+status: 4
+tags: []
+user_id: root

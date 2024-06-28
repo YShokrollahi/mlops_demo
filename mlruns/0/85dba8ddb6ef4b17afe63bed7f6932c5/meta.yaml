@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yshokrollahi/Documents/GitHub/mlops_demo/mlruns/0/85dba8ddb6ef4b17afe63bed7f6932c5/artifacts
+end_time: 1719605117666
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 85dba8ddb6ef4b17afe63bed7f6932c5
+run_name: vaunted-duck-158
+run_uuid: 85dba8ddb6ef4b17afe63bed7f6932c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719605106733
+status: 4
+tags: []
+user_id: root

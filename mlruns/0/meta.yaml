@@ -1,0 +1,4 @@
+experiment_id: 0
+name: Default
+artifact_location: file:///Users/yshokrollahi/Documents/GitHub/mlops_demo/mlruns/0
+lifecycle_stage: active

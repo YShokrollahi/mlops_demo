@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/yshokrollahi/Documents/GitHub/mlops_demo/mlruns/0/4c04124a246a4d13a98ae93bff66cf23/artifacts
+end_time: 1719605177173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4c04124a246a4d13a98ae93bff66cf23
+run_name: colorful-worm-745
+run_uuid: 4c04124a246a4d13a98ae93bff66cf23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719605166035
+status: 4
+tags: []
+user_id: root

@@ -1,3 +1,4 @@
+import os
 import mlflow
 import mlflow.sklearn
 from sklearn.model_selection import train_test_split
@@ -38,8 +39,17 @@ def train_model():
         mlflow.sklearn.log_model(clf, "model")
         print("Logged parameters, metrics, and model to MLflow")
         
+        # Ensure the models directory exists
+        os.makedirs("models", exist_ok=True)
+        
+        # Delete the existing model file if it exists
+        model_path = "models/model.pkl"
+        if os.path.exists(model_path):
+            os.remove(model_path)
+            print(f"Deleted existing model file: {model_path}")
+        
         # Save the model to disk
-        mlflow.sklearn.save_model(clf, "models/model.pkl")
+        mlflow.sklearn.save_model(clf, model_path)
         print("Model saved to disk")
 
 if __name__ == "__main__":
