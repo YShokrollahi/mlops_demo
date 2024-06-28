@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 import mlflow.sklearn
 
 app = Flask(__name__)
-model = mlflow.sklearn.load_model("models/model.pkl")
+model = mlflow.sklearn.load_model("models/model")
 
 @app.route('/predict', methods=['POST'])
 def predict():
