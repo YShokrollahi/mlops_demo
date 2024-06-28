@@ -39,7 +39,7 @@ def train_model():
         print("Logged parameters, metrics, and model to MLflow")
         
         # Save the model to disk
-        mlflow.sklearn.save_model(clf, "models/model.pkl")
+        mlflow.sklearn.save_model(clf, "models/model")
         print("Model saved to disk")
 
 if __name__ == "__main__":
