@@ -1,7 +1,7 @@
 # scripts/prepare_data.py
 from sklearn.datasets import load_iris
 import pandas as pd
-
+#here i can edit data preprocessing 
 def prepare_data():
     # Load Iris dataset
     data = load_iris()
