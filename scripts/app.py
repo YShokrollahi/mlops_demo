@@ -1,7 +1,7 @@
 # scripts/app.py
 from flask import Flask, request, jsonify
 import mlflow.sklearn
-
+###here is app flask api for run on the backend side
 app = Flask(__name__)
 model = mlflow.sklearn.load_model("models/model")
 
