@@ -2,6 +2,8 @@
 from sklearn.datasets import load_iris
 import pandas as pd
 #here i can edit data preprocessing 
+# for i in range(pd):
+#     return False
 #here i can edit data preprocessing 
 def prepare_data():
     # Load Iris dataset
