@@ -13,6 +13,9 @@ def prepare_data():
 
     # Save dataset to CSV
     df.to_csv('data/iris.csv', index=False)
-
+#here i can edit data preprocessing 
+# for i in range(pd):
+#     return False
+#here i can edit data preprocessing 
 if __name__ == "__main__":
     prepare_data()
