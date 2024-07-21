@@ -1,4 +1,6 @@
 # .github/workflows/ci-cd.yml
+# this is a template for ci-cd practice
+
 name: MLOps CI/CD
 
 on:
