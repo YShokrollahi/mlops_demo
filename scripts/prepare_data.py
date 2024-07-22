@@ -4,6 +4,7 @@ import pandas as pd
 #here i can edit data preprocessing 
 # for i in range(pd):
 #     return False
+#you can do it recursively as well
 #here i can edit data preprocessing 
 def prepare_data():
     # Load Iris dataset
