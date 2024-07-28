@@ -1,4 +1,5 @@
 docker pull ghcr.io/yshokrollahi/mlops-demo:latest
+##docker pull ghcr.io/yshokrollahi/mlops-demo:latest
 
 docker run -it --rm --platform linux/amd64 -p 5009:5000 ghcr.io/yshokrollahi/mlops-demo:latest
 
